@@ -1,0 +1,24 @@
+{
+  "privateChat_ali@gmail.com_suham@gmail.com": [
+    {
+      "email": "ali@gmail.com",
+      "username": "ali@gmail.com",
+      "text": "hi",
+      "timestamp": "2025-08-10T19:52:49.444Z"
+    }
+  ],
+  "privateChat_ali@gmail.com_qasim@gmail.com": [
+    {
+      "email": "ali@gmail.com",
+      "username": "ali@gmail.com",
+      "text": "hi",
+      "timestamp": "2025-08-10T19:53:02.573Z"
+    },
+    {
+      "email": "qasim@gmail.com",
+      "username": "qasim@gmail.com",
+      "text": "hello",
+      "timestamp": "2025-08-10T19:58:41.480Z"
+    }
+  ]
+}

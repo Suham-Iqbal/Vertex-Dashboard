@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatFlow 2025 - Modern Desktop Chat</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.css" rel="stylesheet">
+    <link href="modern-chat-2025.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle">
+        <i data-lucide="moon"></i>
+    </button>
+
+    <!-- Main Chat Container -->
+    <div class="chat-container">
+        <!-- Left Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <div class="app-logo">
+                    <div class="logo-icon">C</div>
+                    <div class="app-name">ChatFlow</div>
+                </div>
+                <div class="search-container">
+                    <i data-lucide="search" class="search-icon"></i>
+                    <input type="text" class="search-input" placeholder="Search chats...">
+                </div>
+            </div>
+            
+            <div class="chats-list" id="chatsList">
+                <!-- Chat items will be populated by JavaScript -->
+            </div>
+        </div>
+
+        <!-- Main Chat Area -->
+        <div class="chat-main">
+            <div class="chat-header">
+                <div class="contact-avatar">A</div>
+                <div class="contact-info">
+                    <div class="contact-name">Alex Johnson</div>
+                    <div class="contact-status">
+                        <div class="status-dot"></div>
+                        Online
+                    </div>
+                </div>
+                <div class="header-actions">
+                    <button class="action-btn">
+                        <i data-lucide="phone"></i>
+                    </button>
+                    <button class="action-btn">
+                        <i data-lucide="video"></i>
+                    </button>
+                    <button class="action-btn">
+                        <i data-lucide="more-horizontal"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="messages-container" id="messagesContainer">
+                <!-- Messages will be populated by JavaScript -->
+            </div>
+
+            <div class="input-area">
+                <div class="input-container">
+                    <textarea 
+                        class="message-input" 
+                        placeholder="Type a message..."
+                        id="messageInput"
+                        rows="1"
+                    ></textarea>
+                    <div class="input-actions">
+                        <button class="input-btn" title="Emoji">
+                            <i data-lucide="smile"></i>
+                        </button>
+                        <button class="input-btn" title="Attach file">
+                            <i data-lucide="paperclip"></i>
+                        </button>
+                        <button class="input-btn send-btn" title="Send message" id="sendBtn">
+                            <i data-lucide="send"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Sidebar -->
+        <div class="sidebar-right">
+            <div class="sidebar-right-header">
+                <div class="sidebar-right-title">Contact Info</div>
+            </div>
+            <div class="contact-details">
+                <div class="detail-item">
+                    <i data-lucide="phone" class="detail-icon"></i>
+                    <div class="detail-text">+1 (555) 123-4567</div>
+                </div>
+                <div class="detail-item">
+                    <i data-lucide="mail" class="detail-icon"></i>
+                    <div class="detail-text">alex.johnson@email.com</div>
+                </div>
+                <div class="detail-item">
+                    <i data-lucide="map-pin" class="detail-icon"></i>
+                    <div class="detail-text">San Francisco, CA</div>
+                </div>
+                <div class="detail-item">
+                    <i data-lucide="clock" class="detail-icon"></i>
+                    <div class="detail-text">Last seen 2 minutes ago</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="modern-chat-2025.js"></script>
+</body>
+</html>
